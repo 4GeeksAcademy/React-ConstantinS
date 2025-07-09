@@ -22,24 +22,40 @@ const Home = () => {
 				<div className="d-flex justify-content-center align-items-center mx-auto" style={{ width: "100%" }}>
 					<div className="mx-4 mt-4">
 						<Cards
-						name = "Sniper"
-						description: "asd"
-						
-						  />
+							name="Sniper"
+							description="asd"
+							image="src/img/hunter.jpg"
+
+						/>
 					</div>
 					<div className="mx-4 mt-4">
-						<Cards />
+						<Cards
+							name="Sniper"
+							description="asd"
+							image="src/img/hunter.jpg"
+
+						/>
 					</div>
 					<div className="mx-4 mt-4">
-						<Cards />
+						<Cards
+							name="Sniper"
+							description="asd"
+							image="src/img/hunter.jpg"
+
+						/>
 					</div>
 					<div className="mx-4 mt-4">
-						<Cards />
+						<Cards
+							name="Sniper"
+							description="asd"
+							image="src/img/hunter.jpg"
+
+						/>
 					</div>
 				</div>
 			</div>
 			<div className="Footer">
-				<Footer/>
+				<Footer />
 			</div>
 		</div>
 	);
