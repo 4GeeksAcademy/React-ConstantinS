@@ -15,53 +15,46 @@ const Home = () => {
 			</div>
 
 
-			<div className="container" style={{width:"100%", maxWidth:"1080px"}}>
+			<div className="container" style={{ width: "100%", maxWidth: "1080px" }}>
 				<div className=" d-flex flex-wrap justify-content-center gap-4">
-						<UpperTab />
+					<UpperTab />
 				</div>
 
 
 
-				<div className="container">
-					<div className="d-flex flex-wrap justify-content-center gap-4">
-						<div className="mx-auto mt-4 mb-5">
-							<Cards
-								ImageName="Sniper"
-								ImageDescription="asd"
-								ImageGame="src/img/hunter.jpg"
+				<div className="row">
+					<div className="mx-auto mt-4 mb-5 col-md-3">
+						<Cards
+							ImageName="Sniper"
+							ImageDescription="asd"
+							ImageGame="src/img/hunter.jpg"
 
-							/>
-						</div>
-						<div className="mx-auto mt-4 mb-5">
-							<Cards
-								ImageName="Sniper"
-								ImageDescription="asd"
-								ImageGame="src/img/whitesmith.jpg"
-
-							/>
-						</div>
-						<div className="mx-auto mt-4 mb-5">
-							<Cards
-								ImageName="Sniper"
-								ImageDescription="asd"
-								ImageGame="src/img/mage.jpg"
-
-							/>
-						</div>
-						<div className="mx-auto mt-4 mb-5">
-							<Cards
-								ImageName="Sniper"
-								ImageDescription="asd"
-								ImageGame="src/img/knight2.jpg"
-
-							/>
-						</div>
-
-
+						/>
 					</div>
+					<div className="mx-auto mt-4 mb-5 col-md-3">
+						<Cards
+							ImageName="Sniper"
+							ImageDescription="asd"
+							ImageGame="src/img/whitesmith.jpg"
 
+						/>
+					</div>
+					<div className="mx-auto mt-4 mb-5 col-md-3">
+						<Cards
+							ImageName="Sniper"
+							ImageDescription="asd"
+							ImageGame="src/img/mage.jpg"
 
+						/>
+					</div>
+					<div className="mx-auto mt-4 mb-5 col-md-3">
+						<Cards
+							ImageName="Sniper"
+							ImageDescription="asd"
+							ImageGame="src/img/knight2.jpg"
 
+						/>
+					</div>
 				</div>
 
 

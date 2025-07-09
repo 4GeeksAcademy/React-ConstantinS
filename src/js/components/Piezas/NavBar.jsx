@@ -4,38 +4,30 @@ export const NavBar = () => {
 
 
     <nav className="navbar navbar-expand-lg bg-black navbar-black col-md-12">
-      <div className="container-fluid text-white">
-        <a className="navbar-brand text-white" href="#">Navbar</a>
-        <button className="navbar-toggler text-white bg-warning " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div className="container-fluid text-white d-flex align-items-center">
+        <button className="navbar-toggler text-white bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <a className="navbar-brand text-warning" href="#">Home</a>
             <li className="nav-item">
-              <a className="nav-link active text-white" aria-current="page" href="#">Home</a>
+              <a className="nav-link active text-warning" aria-current="page" href="#">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">Link</a>
+              <a className="nav-link text-warning" href="#">Services</a>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+              <a className="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contact
               </a>
-              <ul className="dropdown-menu bg-black text-white">
-                <li><a className="dropdown-item text-white" href="#">Action</a></li>
-                <li><a className="dropdown-item text-white" href="#">Another action</a></li>
-                <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item text-white" href="#">Something else here</a></li>
+              <ul className="dropdown-menu dropdown-menu-end bg-warning text-white">
+                <li><a className="dropdown-item text-black" href="#">@eMail</a></li>
+                <li><a className="dropdown-item text-black" href="#">Phone</a></li>
+                <li><a className="dropdown-item text-black" href="#">More info here</a></li>
               </ul>
             </li>
-            <li className="nav-item">
-              <a className="nav-link disabled text-white" aria-disabled="true">Disabled</a>
-            </li>
           </ul>
-          <form className="d-flex" role="search">
-            <input className="form-control me-2 text-white" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-success text-white" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
