@@ -16,14 +16,14 @@ const Home = () => {
 
 
 			<div className="container" style={{width:"100%", maxWidth:"1080px"}}>
-				<div className="container">
+				<div className=" d-flex flex-wrap justify-content-center gap-4">
 						<UpperTab />
 				</div>
 
 
 
 				<div className="container">
-					<div className="d-flex">
+					<div className="d-flex flex-wrap justify-content-center gap-4">
 						<div className="mx-auto mt-4 mb-5">
 							<Cards
 								ImageName="Sniper"
