@@ -26,31 +26,31 @@ const Home = () => {
 					<div className="mx-auto mt-4 mb-5 col-md-3">
 						<Cards
 							ImageName="Sniper"
-							ImageDescription="asd"
+							ImageDescription="Guerrero especializado en lucha a distancia con daño terrible"
 							ImageGame="src/img/hunter.jpg"
 
 						/>
 					</div>
 					<div className="mx-auto mt-4 mb-5 col-md-3">
 						<Cards
-							ImageName="Sniper"
-							ImageDescription="asd"
+							ImageName="Whitesmith"
+							ImageDescription="Personaje ofensiva brutal, con bufos de daño y posibilidad de romper armaduras"
 							ImageGame="src/img/whitesmith.jpg"
 
 						/>
 					</div>
 					<div className="mx-auto mt-4 mb-5 col-md-3">
 						<Cards
-							ImageName="Sniper"
-							ImageDescription="asd"
+							ImageName="Wizzard"
+							ImageDescription="Guerrero mágico especializado en daño de área y daño elemental"
 							ImageGame="src/img/mage.jpg"
 
 						/>
 					</div>
 					<div className="mx-auto mt-4 mb-5 col-md-3">
 						<Cards
-							ImageName="Sniper"
-							ImageDescription="asd"
+							ImageName="Lord Knight"
+							ImageDescription="Un berserker. No tiene rivales en cuerpo a cuerpo. Nada lo detiene"
 							ImageGame="src/img/knight2.jpg"
 
 						/>
